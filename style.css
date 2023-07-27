@@ -1,0 +1,281 @@
+body{
+    font-family: montserrat;
+}
+
+
+
+/* ***************************************************************************************************************
+                                                Navbar Section CSS
+**************************************************************************************************************** */
+.section-padding{
+    padding: 100px 0;
+}
+
+.section-header{
+    margin-bottom: 50px;
+}
+
+.section-header h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section-header h2 span{
+    color: #6cae22;
+}
+
+.navbar{
+    background: #fff;
+}
+
+.navbar-nav{
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.navbar-light .navbar-brand{
+    color: #262626;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #262626;
+}
+
+.navbar-light .nav-link{
+    color: #262626;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #6cae22;
+}
+
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+
+}
+
+/* ***************************************************************************************************************
+                                                Home Section CSS
+**************************************************************************************************************** */
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.bg-1{
+    background-image: url('img/1.jpg');
+}
+.bg-2{
+    background-image: url('img/2.jpg');
+}
+.bg-3{
+    background-image: url('img/3.jpg');
+}
+
+.bg-1,
+.bg-2,
+.bg-3{
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+    text-align: left;
+    left: 8%;
+    color: #262626;
+}
+
+.carousel-caption h5{
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+    width: 45%;
+    font-size: 18px;
+    line-height: 1.9;;
+}
+
+.carousel-caption .btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    display: inline-block;
+    background-color: #6cae22;
+    font-weight: 600;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.carousel-indicators{
+    bottom: 65px;
+}
+
+.carousel-indicators button{
+    width: 100px !important;
+}
+
+/* ***************************************************************************************************************
+                                                About Section CSS
+**************************************************************************************************************** */
+
+.about-img img{
+    width: 100%;
+}
+
+.about-text h5{
+    color: #6cae22;
+    font-size: 18px;
+}
+
+.about-text p{
+    color: #6b6b6b;
+    line-height: 1.8;
+}
+.about-text a{
+    background: #6cae22;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* ***************************************************************************************************************
+                                                Stats Section CSS
+**************************************************************************************************************** */
+
+
+.stats{
+    background: #6cae22;
+    color: #fff;
+}
+
+.stats i{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.stats h2{
+    font-weight: 700;
+}
+
+/* ***************************************************************************************************************
+                                                Services Section CSS
+**************************************************************************************************************** */
+.singel-service{
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.3);
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition:all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.services i{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #6cae22;
+}
+
+.services h2{
+    font-weight: 700;
+}
+
+.services p{
+    line-height: 1.8;
+}
+
+.services .btn{
+    background: #6cae22;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.singel-service:hover{
+    background: #6cae22;
+    color: #fff;
+}
+.singel-service:hover i{
+    color: #fff;
+}
+
+.singel-service:hover a{
+    background: #fff;
+    color: #6cae22;
+}
+
+/* ***************************************************************************************************************
+                                                Testimonial Section CSS
+**************************************************************************************************************** */
+.testimonial .section-header{
+    color: #fff;
+}
+.testimonial .section-header h2 span{
+    color: #fff;
+}
+
+.testimonial{
+    background-color: #6cae22;
+}
+.testimonial .carousel-caption{
+    bottom: 0;
+    color: #fff;
+}
+
+.testimonial .carousel-item{
+    height: 30vh;
+}
+
+.testimonial .carousel-caption h5{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.testimonial blockquote{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.testi-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto ;
+    border: 5px solid #fff;
+}
+
+.testi-img img{
+    width: 100%;
+}
+
+/* ***************************************************************************************************************
+                                                Trainer Section CSS
+**************************************************************************************************************** */
+.card-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.singel-trainer i{
+    font-size: 16px;
+    margin: 0 15px;
+}
