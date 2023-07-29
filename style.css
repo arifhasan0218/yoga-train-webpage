@@ -1,5 +1,6 @@
 body{
     font-family: montserrat;
+    color: #262626;
 }
 
 
@@ -276,6 +277,284 @@ body{
 }
 
 .singel-trainer i{
-    font-size: 16px;
+    font-size: 22px;
     margin: 0 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.singel-trainer i:hover{
+   color: #6cae22;
+}
+
+.singel-trainer .fa-facebook:hover{
+    color: #3b5998;
+}
+
+.singel-trainer .fa-instagram:hover{
+    color: #fd1d1d;
+}
+.singel-trainer .fa-linkedin:hover{
+    color: #0000FF;
+}
+.singel-trainer .fa-youtube:hover{
+    color: #c4302b;
+}
+
+/* ***************************************************************************************************************
+                                                Blog Section CSS
+**************************************************************************************************************** */
+
+.singel-blog {
+    padding: 30px 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.singel-blog .card-title{
+    font-weight: 700;
+}
+
+.singel-blog .card img{
+    width: 100%;
+}
+.singel-blog a{
+    background: #6cae22;
+    padding: 10px 30px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* ***************************************************************************************************************
+                                                quote Section CSS
+**************************************************************************************************************** */
+
+.quote{
+    background: #6cae22;
+    color: #fff;
+}
+
+.singel-quote p{
+    font-size: 25px;
+}
+
+.singel-quote i{
+    font-size: 25px;
+    padding: 0 15px;
+}
+
+
+.left-content i{
+    padding-right: 15px;
+}
+
+/* ***************************************************************************************************************
+                                                Contact Section CSS
+**************************************************************************************************************** */
+
+.left-content{
+    background: #6cae22;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.right-content label{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #262626;
+}
+
+.right-content .btn{
+    background: #6cae22;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+footer{
+    background: #6cae22;
+    color: #fff;
+    padding: 35px 0 !important;
+}
+
+footer i{
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .navbar-collapse{
+        background: #fff;
+    }
+
+    .navbar-collapse .nav-item .nav-link{
+        color: #000;
+    }
+
+    .carousel-caption{
+        bottom: 450px;
+    }
+
+    .carousel-caption h5{
+        font-size: 45px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .bg-1,
+    .bg-2,
+    .bg-3{
+        background-position: 36%;
+    }
+
+    .singel-service{
+        margin-bottom: 30px;
+    }
+
+    .singel-blog{
+        margin-bottom: 30px;
+    }
+
+    .singel-trainer{
+        margin-bottom: 30px;
+    }
+
+    .left-content{
+        margin-bottom: 50px;
+    }
+
+    .about-img img{
+        width: 100%;
+    }
+
+    .about-text h5{
+        margin: 15px 0 5px;
+    }
+    .about-text h2{}
+    .about-text p{}
+
+}
+
+@media only screen and (max-width:767px){
+    .navbar-collapse .nav-item .nav-link{
+        color: #000;
+    }
+
+    .singel-service,
+    .singel-blog,
+    .singel-trainer,
+    .left-content{
+        margin-bottom: 30px;
+    }
+
+    .carousel-caption h5{
+        font-size: 22px;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .about-img{
+        margin-bottom: 30px;
+    }
+
+    .about-text{
+        text-align: center;
+    }
+
+    .about-text h5{
+        font-size: 16px;
+    }
+    .about-text h2{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .about-text p{
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .about-text .btn{
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -5px;
+    }
+
+    .singel-number{
+        margin-bottom: 30px;
+    }
+
+    .bg-1,
+    .bg-2,
+    .bg-3{
+        background-position: 36%;
+    }
+
+
+    .section-header h2{
+        font-size: 25px;
+
+    }
+
+    .section-header p{
+        font-size: 14px;
+    }
+
+    .carousel-caption {
+        bottom: 80px;
+    }
+
+    .singel-service h2{
+        font-size: 18px;
+    }
+    .singel-service p{
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .btn{
+        padding: 10px 20px !important;
+        font-weight: 600 !important;
+    }
+
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .singel-quote p{
+        font-size: 18px;
+        padding: 0 5px;
+        width: 100%;
+    }
+
+    .singel-quote i{
+        padding: 0 5px;
+        font-size: 25px;
+    }
+
+    .testimonial .carousel-caption{
+        bottom: -30px;
+    }
+
+    .left-content{
+        text-align: center;
+    }
+
+    .testimonial .carousel-item {
+        height: 100%;
+    }
+
+
+
 }
